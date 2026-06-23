@@ -77,3 +77,14 @@ ibus restart
 #     Go to Settings > Keyboard (or Region & Language).
 #     Under Input Sources, click Add Source....
 #     Select Vietnamese and choose Vietnamese (Unikey).
+
+# ----------------------------------------------------------------------------- Install HEIF plugin for image viewers
+echo "=== Install HEIF plugin for image viewers ==="
+sudo apt install libheif-plugin-libde265
+echo "HEIF plugin installed successfully! You should now be able to view HEIF images in your image viewer."
+# ----------------------------------------------------------------------------- Install HEIF tools
+echo "=== Install HEIF tools ==="
+sudo apt install libheif-examples
+echo "HEIF tools installed successfully! You can use 'heif-convert' to convert HEIF images to other formats, and 'heif-info' to get information about HEIF files."
+
+
